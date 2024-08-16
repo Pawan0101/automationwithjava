@@ -32,7 +32,7 @@ public class ParaBankLoginData {
 	@And("clicks on login button")
 	public void clicks_on_login_button() {
 		driver.findElement(By.xpath("//*[@id=\"loginPanel\"]/form/div[3]/input")).click();
-		System.out.println("Clicked on login button");
+		System.out.println("Clicked on login button and logged successfully...");
 	}
 
 	@Then("display user home page")
